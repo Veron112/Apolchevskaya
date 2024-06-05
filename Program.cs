@@ -80,7 +80,6 @@ namespace Apolchevskaya
             //    logging.ClearProviders();
             //    logging.AddFilter("Microsoft", LogLevel.None);
             //});
-
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

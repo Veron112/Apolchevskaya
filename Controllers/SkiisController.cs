@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Apolchevskaya.Data;
 using Ski.Domain.Entities;
 using Apolchevskaya.Services;
+using Apolchevskaya.Dto;
 
 namespace Apolchevskaya.Controllers
 {
@@ -16,12 +17,14 @@ namespace Apolchevskaya.Controllers
         private readonly ApplicationDbContext _context;
         private IProductService _productService;
         private ICategoryService _categoryService;
-
+        private readonly IWebHostEnvironment _env;
         public SkiisController(
+            IWebHostEnvironment env,
             ApplicationDbContext context, 
             IProductService productService, 
             ICategoryService categoryService)
         {
+            _env = env;
             _context = context;
             _productService = productService;
             _categoryService = categoryService;
@@ -84,11 +87,30 @@ namespace Apolchevskaya.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("SkiId,SkiName,Description,Image,CategoryId")] Skii skii)
+        public async Task<IActionResult> Create([FromForm] PostSkiiDto skii)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(skii);
+                Skii skiiCreate = new()
+                {
+                    SkiName = skii.SkiName,
+                    Description = skii.Description,
+                    Price = skii.Price,
+                    CategoryId = skii.CategoryId,
+                };
+                var imagesPath = Path.Combine(_env.WebRootPath, "Images");
+                var randomName = Path.GetRandomFileName();
+                var extension = Path.GetExtension(skii.Image.FileName);
+                var fileName = Path.ChangeExtension(randomName, extension);
+                var filePath = Path.Combine(imagesPath, fileName);
+                using var stream = System.IO.File.OpenWrite(filePath);
+                await skii.Image.CopyToAsync(stream);
+                var host = "https://" + Request.Host;
+                var url = $"{host}/Images/{fileName}";
+                skiiCreate.Image = url;
+                await _context.SaveChangesAsync();
+
+                _context.Add(skiiCreate);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }

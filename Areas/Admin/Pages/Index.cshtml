@@ -1,0 +1,64 @@
+﻿@page
+@model Apolchevskaya.Areas.Admin.Pages.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Skii[0].SkiName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Skii[0].Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Skii[0].Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Skii[0].Image)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Skii[0].Category)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Skii) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.SkiName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Image)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category.NormalizedName)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.SkiId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.SkiId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.SkiId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<pager admin="true"
+       current-page="@Model.CurrentPage"
+       total-pages="@Model.TotalPages"></pager>
+

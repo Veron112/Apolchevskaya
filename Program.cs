@@ -1,7 +1,10 @@
 using Apolchevskaya.Data;
 using Apolchevskaya.Services;
+using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
+using Ski.Domain.Cart;
 //using Serilog;
 using System.Security.Claims;
 
@@ -63,11 +66,12 @@ namespace Apolchevskaya
             //builder.Services.AddScoped<IProductService,MemoryProductService>();
             builder.Services.AddHttpContextAccessor();
 
-            //builder.Services.AddScoped<Cart>(sp => CorsService.GetCart(sp));
+           // builder.Services.AddScoped<Cart>(sp => CorsService.GetCart(sp));
+            
 
             builder.Services.AddDistributedMemoryCache();
             builder.Services.AddSession();
-            //builder.Services.AddSerilog();
+            builder.Services.AddSerilog();
 
             builder.Services.ConfigureApplicationCookie(options =>
             {
@@ -75,11 +79,11 @@ namespace Apolchevskaya
                 options.LogoutPath = $"/Identity/Account/Logout";
             });
 
-            //builder.Host.ConfigureLogging(logging =>
-            //{
-            //    logging.ClearProviders();
-            //    logging.AddFilter("Microsoft", LogLevel.None);
-            //});
+            builder.Host.ConfigureLogging(logging =>
+            {
+                logging.ClearProviders();
+                logging.AddFilter("Microsoft", LogLevel.None);
+            });
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -114,11 +118,11 @@ namespace Apolchevskaya
 
 
 
-            //Log.Logger = new LoggerConfiguration()
-            //.WriteTo.Console()
-            //.WriteTo.File("logs/log.txt", rollingInterval:
-            //RollingInterval.Day)
-            //.CreateLogger();
+            Log.Logger = new LoggerConfiguration()
+            .WriteTo.Console()
+            .WriteTo.File("logs/log.txt", rollingInterval:
+            RollingInterval.Day)
+            .CreateLogger();
 
             var serviceCollection = new ServiceCollection();
             serviceCollection.AddLogging();

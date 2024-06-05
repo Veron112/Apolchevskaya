@@ -9,6 +9,7 @@ using Apolchevskaya.Data;
 using Ski.Domain.Entities;
 using Apolchevskaya.Services;
 using Apolchevskaya.Dto;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Apolchevskaya.Controllers
 {
@@ -32,7 +33,8 @@ namespace Apolchevskaya.Controllers
 
 
 
-        // GET: Skiis
+
+        [Authorize(Policy = "admin")]
         public async Task<IActionResult> Index(string? category, int pageNo = 1)
         {
             // получить список категорий
@@ -97,6 +99,8 @@ namespace Apolchevskaya.Controllers
                     Description = skii.Description,
                     Price = skii.Price,
                     CategoryId = skii.CategoryId,
+                   
+
                 };
                 var imagesPath = Path.Combine(_env.WebRootPath, "Images");
                 var randomName = Path.GetRandomFileName();

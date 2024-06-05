@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apolchevskaya", "Apolchevsk
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ski.Domain", "..\Ski.Domain\Ski.Domain.csproj", "{200BE7C1-FDFA-4F03-B7B8-D4F8D13A075A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ski.API", "..\Ski.API\Ski.API.csproj", "{3775810A-8C20-4DD4-98A4-ADC9B4BEF208}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ski.API", "..\Ski.API\Ski.API.csproj", "{3775810A-8C20-4DD4-98A4-ADC9B4BEF208}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

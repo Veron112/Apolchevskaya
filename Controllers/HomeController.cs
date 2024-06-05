@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Serilog;
 
 namespace Apolchevskaya.Controllers
 {
@@ -22,6 +23,7 @@ namespace Apolchevskaya.Controllers
             ViewData["text"] = "Лабораторная работа №2";
             SelectList data = new SelectList(_listData, "Id", "Name");
             return View(data);
+            Log.Information("Hello из метода Index контроллера Home!");
         }
     }
     public class ListDemo

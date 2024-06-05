@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
-//using Serilog;
+using Serilog;
 using System.Threading.Tasks;
 
 namespace Apolchevskaya.Middleware
@@ -20,8 +20,8 @@ namespace Apolchevskaya.Middleware
             await _next(httpContext);
             var code = httpContext.Response.StatusCode;
             var temp = code / 100;
-            //if (temp != 2)
-            //    Log.Logger.Information($"-- Request {httpContext.Request.Path} returns{code} ");
+            if (temp != 2)
+                Log.Logger.Information($"-- Request {httpContext.Request.Path} returns{code} ");
 
         }
        

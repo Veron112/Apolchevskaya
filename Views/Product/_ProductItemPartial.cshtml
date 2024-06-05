@@ -1,0 +1,27 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model Skii
+@{
+	var request = ViewContext.HttpContext.Request;
+
+	var returnUrl = request.Path + request.QueryString.ToUriComponent();
+}
+<div class="col-4 p-4">
+	<div class="card border-dark m-2">
+		<img class="card-img-top" src="@Model.Image" alt="No image available" height="400" />
+		<div class="card-body">
+			<h5 class="card-title">@Model.SkiName</h5>
+			<p class="card-text">@Model.Description</p>
+			<p class="card-text">@Model.Price $</p>
+		</div><!-- card-body -->
+		<div class="card-footer text-center">
+			<a class="btn btn-outline-primary"
+			   asp-action="add" asp-controller="Cart"
+			   asp-route-id="@Model.SkiId"
+			   asp-route-returnurl="@returnUrl">
+				Add to cart <i class="fa-solid fa-cart-shopping"></i>
+			</a>
+		</div><!-- card-footer -->
+	</div><!-- card -->
+</div><!-- col -->

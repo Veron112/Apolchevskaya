@@ -1,0 +1,99 @@
+C:\Users\Veron\Desktop\Ski.Domain\bin\Debug\net8.0\Ski.Domain.deps.json
+C:\Users\Veron\Desktop\Ski.Domain\bin\Debug\net8.0\Ski.Domain.dll
+C:\Users\Veron\Desktop\Ski.Domain\bin\Debug\net8.0\Ski.Domain.pdb
+C:\Users\Veron\Desktop\Ski.Domain\obj\Debug\net8.0\Ski.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Veron\Desktop\Ski.Domain\obj\Debug\net8.0\Ski.Domain.AssemblyInfoInputs.cache
+C:\Users\Veron\Desktop\Ski.Domain\obj\Debug\net8.0\Ski.Domain.AssemblyInfo.cs
+C:\Users\Veron\Desktop\Ski.Domain\obj\Debug\net8.0\Ski.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Veron\Desktop\Ski.Domain\obj\Debug\net8.0\Ski.Domain.dll
+C:\Users\Veron\Desktop\Ski.Domain\obj\Debug\net8.0\refint\Ski.Domain.dll
+C:\Users\Veron\Desktop\Ski.Domain\obj\Debug\net8.0\Ski.Domain.pdb
+C:\Users\Veron\Desktop\Ski.Domain\obj\Debug\net8.0\ref\Ski.Domain.dll
+C:\Users\Veron\Desktop\Новая\Ski.Domain\bin\Debug\net8.0\Ski.Domain.deps.json
+C:\Users\Veron\Desktop\Новая\Ski.Domain\bin\Debug\net8.0\Ski.Domain.dll
+C:\Users\Veron\Desktop\Новая\Ski.Domain\bin\Debug\net8.0\Ski.Domain.pdb
+C:\Users\Veron\Desktop\Новая\Ski.Domain\obj\Debug\net8.0\Ski.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Veron\Desktop\Новая\Ski.Domain\obj\Debug\net8.0\Ski.Domain.AssemblyInfoInputs.cache
+C:\Users\Veron\Desktop\Новая\Ski.Domain\obj\Debug\net8.0\Ski.Domain.AssemblyInfo.cs
+C:\Users\Veron\Desktop\Новая\Ski.Domain\obj\Debug\net8.0\Ski.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Veron\Desktop\Новая\Ski.Domain\obj\Debug\net8.0\Ski.Domain.dll
+C:\Users\Veron\Desktop\Новая\Ski.Domain\obj\Debug\net8.0\refint\Ski.Domain.dll
+C:\Users\Veron\Desktop\Новая\Ski.Domain\obj\Debug\net8.0\Ski.Domain.pdb
+C:\Users\Veron\Desktop\Новая\Ski.Domain\obj\Debug\net8.0\ref\Ski.Domain.dll
+E:\WEB\Новая\Ski.Domain\bin\Debug\net8.0\Ski.Domain.deps.json
+E:\WEB\Новая\Ski.Domain\bin\Debug\net8.0\Ski.Domain.dll
+E:\WEB\Новая\Ski.Domain\bin\Debug\net8.0\Ski.Domain.pdb
+E:\WEB\Новая\Ski.Domain\obj\Debug\net8.0\Ski.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\WEB\Новая\Ski.Domain\obj\Debug\net8.0\Ski.Domain.AssemblyInfoInputs.cache
+E:\WEB\Новая\Ski.Domain\obj\Debug\net8.0\Ski.Domain.AssemblyInfo.cs
+E:\WEB\Новая\Ski.Domain\obj\Debug\net8.0\Ski.Domain.csproj.CoreCompileInputs.cache
+E:\WEB\Новая\Ski.Domain\obj\Debug\net8.0\Ski.Domain.dll
+E:\WEB\Новая\Ski.Domain\obj\Debug\net8.0\refint\Ski.Domain.dll
+E:\WEB\Новая\Ski.Domain\obj\Debug\net8.0\Ski.Domain.pdb
+E:\WEB\Новая\Ski.Domain\obj\Debug\net8.0\ref\Ski.Domain.dll
+D:\Учёба\web-технологии\Моя\Лаба 1-5\Лаба 1-5\Новая\Ski.Domain\bin\Debug\net8.0\Ski.Domain.deps.json
+D:\Учёба\web-технологии\Моя\Лаба 1-5\Лаба 1-5\Новая\Ski.Domain\bin\Debug\net8.0\Ski.Domain.dll
+D:\Учёба\web-технологии\Моя\Лаба 1-5\Лаба 1-5\Новая\Ski.Domain\bin\Debug\net8.0\Ski.Domain.pdb
+D:\Учёба\web-технологии\Моя\Лаба 1-5\Лаба 1-5\Новая\Ski.Domain\obj\Debug\net8.0\Ski.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Учёба\web-технологии\Моя\Лаба 1-5\Лаба 1-5\Новая\Ski.Domain\obj\Debug\net8.0\Ski.Domain.AssemblyInfoInputs.cache
+D:\Учёба\web-технологии\Моя\Лаба 1-5\Лаба 1-5\Новая\Ski.Domain\obj\Debug\net8.0\Ski.Domain.AssemblyInfo.cs
+D:\Учёба\web-технологии\Моя\Лаба 1-5\Лаба 1-5\Новая\Ski.Domain\obj\Debug\net8.0\Ski.Domain.csproj.CoreCompileInputs.cache
+D:\Учёба\web-технологии\Моя\Лаба 1-5\Лаба 1-5\Новая\Ski.Domain\obj\Debug\net8.0\Ski.Domain.dll
+D:\Учёба\web-технологии\Моя\Лаба 1-5\Лаба 1-5\Новая\Ski.Domain\obj\Debug\net8.0\refint\Ski.Domain.dll
+D:\Учёба\web-технологии\Моя\Лаба 1-5\Лаба 1-5\Новая\Ski.Domain\obj\Debug\net8.0\Ski.Domain.pdb
+D:\Учёба\web-технологии\Моя\Лаба 1-5\Лаба 1-5\Новая\Ski.Domain\obj\Debug\net8.0\ref\Ski.Domain.dll
+E:\WEB\6 лаба\Ski.Domain\bin\Debug\net8.0\Ski.Domain.deps.json
+E:\WEB\6 лаба\Ski.Domain\bin\Debug\net8.0\Ski.Domain.dll
+E:\WEB\6 лаба\Ski.Domain\bin\Debug\net8.0\Ski.Domain.pdb
+E:\WEB\6 лаба\Ski.Domain\obj\Debug\net8.0\Ski.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\WEB\6 лаба\Ski.Domain\obj\Debug\net8.0\Ski.Domain.AssemblyInfoInputs.cache
+E:\WEB\6 лаба\Ski.Domain\obj\Debug\net8.0\Ski.Domain.AssemblyInfo.cs
+E:\WEB\6 лаба\Ski.Domain\obj\Debug\net8.0\Ski.Domain.csproj.CoreCompileInputs.cache
+E:\WEB\6 лаба\Ski.Domain\obj\Debug\net8.0\Ski.Domain.dll
+E:\WEB\6 лаба\Ski.Domain\obj\Debug\net8.0\refint\Ski.Domain.dll
+E:\WEB\6 лаба\Ski.Domain\obj\Debug\net8.0\Ski.Domain.pdb
+E:\WEB\6 лаба\Ski.Domain\obj\Debug\net8.0\ref\Ski.Domain.dll
+C:\Users\Veron\Desktop\6 лаба\6 лаба\Ski.Domain\bin\Debug\net8.0\Ski.Domain.deps.json
+C:\Users\Veron\Desktop\6 лаба\6 лаба\Ski.Domain\bin\Debug\net8.0\Ski.Domain.dll
+C:\Users\Veron\Desktop\6 лаба\6 лаба\Ski.Domain\bin\Debug\net8.0\Ski.Domain.pdb
+C:\Users\Veron\Desktop\6 лаба\6 лаба\Ski.Domain\obj\Debug\net8.0\Ski.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Veron\Desktop\6 лаба\6 лаба\Ski.Domain\obj\Debug\net8.0\Ski.Domain.AssemblyInfoInputs.cache
+C:\Users\Veron\Desktop\6 лаба\6 лаба\Ski.Domain\obj\Debug\net8.0\Ski.Domain.AssemblyInfo.cs
+C:\Users\Veron\Desktop\6 лаба\6 лаба\Ski.Domain\obj\Debug\net8.0\Ski.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Veron\Desktop\6 лаба\6 лаба\Ski.Domain\obj\Debug\net8.0\Ski.Domain.dll
+C:\Users\Veron\Desktop\6 лаба\6 лаба\Ski.Domain\obj\Debug\net8.0\refint\Ski.Domain.dll
+C:\Users\Veron\Desktop\6 лаба\6 лаба\Ski.Domain\obj\Debug\net8.0\Ski.Domain.pdb
+C:\Users\Veron\Desktop\6 лаба\6 лаба\Ski.Domain\obj\Debug\net8.0\ref\Ski.Domain.dll
+C:\Users\Veron\Desktop\6 лаба\Ski.Domain\bin\Debug\net8.0\Ski.Domain.deps.json
+C:\Users\Veron\Desktop\6 лаба\Ski.Domain\bin\Debug\net8.0\Ski.Domain.dll
+C:\Users\Veron\Desktop\6 лаба\Ski.Domain\bin\Debug\net8.0\Ski.Domain.pdb
+C:\Users\Veron\Desktop\6 лаба\Ski.Domain\obj\Debug\net8.0\Ski.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Veron\Desktop\6 лаба\Ski.Domain\obj\Debug\net8.0\Ski.Domain.AssemblyInfoInputs.cache
+C:\Users\Veron\Desktop\6 лаба\Ski.Domain\obj\Debug\net8.0\Ski.Domain.AssemblyInfo.cs
+C:\Users\Veron\Desktop\6 лаба\Ski.Domain\obj\Debug\net8.0\Ski.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Veron\Desktop\6 лаба\Ski.Domain\obj\Debug\net8.0\Ski.Domain.dll
+C:\Users\Veron\Desktop\6 лаба\Ski.Domain\obj\Debug\net8.0\refint\Ski.Domain.dll
+C:\Users\Veron\Desktop\6 лаба\Ski.Domain\obj\Debug\net8.0\Ski.Domain.pdb
+C:\Users\Veron\Desktop\6 лаба\Ski.Domain\obj\Debug\net8.0\ref\Ski.Domain.dll
+C:\Users\Veron\Desktop\7 лаба\Ski.Domain\bin\Debug\net8.0\Ski.Domain.deps.json
+C:\Users\Veron\Desktop\7 лаба\Ski.Domain\bin\Debug\net8.0\Ski.Domain.dll
+C:\Users\Veron\Desktop\7 лаба\Ski.Domain\bin\Debug\net8.0\Ski.Domain.pdb
+C:\Users\Veron\Desktop\7 лаба\Ski.Domain\obj\Debug\net8.0\Ski.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Veron\Desktop\7 лаба\Ski.Domain\obj\Debug\net8.0\Ski.Domain.AssemblyInfoInputs.cache
+C:\Users\Veron\Desktop\7 лаба\Ski.Domain\obj\Debug\net8.0\Ski.Domain.AssemblyInfo.cs
+C:\Users\Veron\Desktop\7 лаба\Ski.Domain\obj\Debug\net8.0\Ski.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Veron\Desktop\7 лаба\Ski.Domain\obj\Debug\net8.0\Ski.Domain.dll
+C:\Users\Veron\Desktop\7 лаба\Ski.Domain\obj\Debug\net8.0\refint\Ski.Domain.dll
+C:\Users\Veron\Desktop\7 лаба\Ski.Domain\obj\Debug\net8.0\Ski.Domain.pdb
+C:\Users\Veron\Desktop\7 лаба\Ski.Domain\obj\Debug\net8.0\ref\Ski.Domain.dll
+C:\Users\Veron\Desktop\9 лаба\Ski.Domain\bin\Debug\net8.0\Ski.Domain.deps.json
+C:\Users\Veron\Desktop\9 лаба\Ski.Domain\bin\Debug\net8.0\Ski.Domain.dll
+C:\Users\Veron\Desktop\9 лаба\Ski.Domain\bin\Debug\net8.0\Ski.Domain.pdb
+C:\Users\Veron\Desktop\9 лаба\Ski.Domain\obj\Debug\net8.0\Ski.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Veron\Desktop\9 лаба\Ski.Domain\obj\Debug\net8.0\Ski.Domain.AssemblyInfoInputs.cache
+C:\Users\Veron\Desktop\9 лаба\Ski.Domain\obj\Debug\net8.0\Ski.Domain.AssemblyInfo.cs
+C:\Users\Veron\Desktop\9 лаба\Ski.Domain\obj\Debug\net8.0\Ski.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Veron\Desktop\9 лаба\Ski.Domain\obj\Debug\net8.0\Ski.Domain.dll
+C:\Users\Veron\Desktop\9 лаба\Ski.Domain\obj\Debug\net8.0\refint\Ski.Domain.dll
+C:\Users\Veron\Desktop\9 лаба\Ski.Domain\obj\Debug\net8.0\Ski.Domain.pdb
+C:\Users\Veron\Desktop\9 лаба\Ski.Domain\obj\Debug\net8.0\ref\Ski.Domain.dll

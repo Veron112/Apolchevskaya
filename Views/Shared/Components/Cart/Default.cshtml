@@ -1,3 +1,15 @@
-﻿<a class="navbar-text ms-auto" asp-controller="Cart" asp-action="Index">
-    00,0 руб <i class="fa-solid fa-cart-shopping"></i> (0)
-</a>  
+﻿@using Ski.Domain.Cart;
+@{
+
+	Cart? cart = (Cart?)ViewBag?.Cart;
+	if (cart == null)
+	{
+		cart = new();
+	}
+}
+<a class="navbar-text ms-auto" asp-controller="Cart" asp-action="Index">
+	
+		@(cart.TotalPrice) $ <i class="fa-solid fa-cart-shopping"></i> (@(cart.Count))
+	
+
+</a>

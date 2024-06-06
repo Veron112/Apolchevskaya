@@ -1,6 +1,7 @@
 ﻿using Apolchevskaya.Extensions;
 using Microsoft.AspNetCore.Mvc;
 using MailChimp.Net.Models;
+using Newtonsoft.Json;
 
 namespace Apolchevskaya.Components
 {
@@ -8,8 +9,8 @@ namespace Apolchevskaya.Components
 	{
         public IViewComponentResult Invoke()
         {
-            var cart = HttpContext.Session.Get<Cart>("cart");
+            var cart = HttpContext.Session.Get<Ski.Domain.Cart.Cart>("cart");
             return View(cart);
         }
-    }
+	}
 }
